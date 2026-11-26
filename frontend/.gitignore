@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+<<<<<<< HEAD
+
+=======
+>>>>>>> f333bb66b7a2f6ec459f2ff17a0a1a6ae6528fca
+# Spring Boot backend
+backend/src/main/resources/application.properties
+backend/target/
+backend/.idea/
+backend/*.iml

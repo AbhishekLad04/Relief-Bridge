@@ -31,3 +31,38 @@ build/
 
 ### VS Code ###
 .vscode/
+  
+# React Frontend
+node_modules/
+dist/
+.env
+.env.local
+
+# Java Spring Boot Backend
+target/
+*.class
+
+# Python AI Service
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+
+# Logs
+*.log
+
+# Environment and Secrets
+.env.*
+!.env.example
+application-local.properties
+
+# OS
+.DS_Store
+Thumbs.db
